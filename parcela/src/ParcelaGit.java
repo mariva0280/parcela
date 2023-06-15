@@ -193,10 +193,6 @@ public class ParcelaGit {
         double expropiacion = parcela.expropiacion(32.00);
         System.out.println("El precio de la expropiacion de la parcela es:" +expropiacion);
 
-        double perimetro = parcela.perimetro();
-        System.out.println("El perimetro de la parcela es: " + perimetro);
-
-
         double perimetro_real = parcela.perimetroReal();
         System.out.println("El perímetro real de la parcela es: " + perimetro_real);
 
